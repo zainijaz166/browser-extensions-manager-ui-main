@@ -68,7 +68,7 @@ header {
 
 /* --- Heading / Filter Part --- */
 .extensions-list {
-  color: var(--Neutral-100);
+  color: var(--Neutral-0);
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
@@ -276,11 +276,14 @@ input:checked + .slider:before {
 }
 
 /* Light Mode Variables override */
-body.light-mode ,.extensions-list{
+body.light-mode {
     background-image: var(--Light-Gradient);
     color: var(--Neutral-900);
 }
 
+body.light-mode .extensions-list {
+    color: var(--Neutral-900); 
+}
 body.light-mode .container {
     background-color: white; 
     color: var(--Neutral-900);
