@@ -18,4 +18,4 @@ This is a solution to the Browser Extensions Manager UI challenge on Frontend Me
 * Git & GitHub
 
 ## Live Demo 🔗
-[Click here to view the Live Website](LINK_YAHAN_PASTE_KAREIN)
+[Click here to view the Live Website](https://zainijaz166.github.io/browser-extensions-manager-ui-main/)
