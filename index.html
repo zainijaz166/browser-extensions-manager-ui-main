@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Browser extensions manager UI</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <img src="assets/images/logo.svg" alt="logo" />
+        <button class="mode-toggle" aria-label="Toggle dark mode">
+          <img class="mode" src="assets/images/icon-sun.svg" alt="" />
+        </button>
+      </nav>
+    </header>
+
+    <main>
+      <section class="extensions-list">
+        <div class="extensions">
+          <h2>Extensions List</h2>
+          <div class="action">
+            <button class="boxs active">All</button>
+            <button class="boxs">Active</button>
+            <button class="boxs">Inactive</button>
+          </div>
+        </div>
+      </section>
+
+      <!-- card 1  -->
+      <div class="main-container">
+        <div class="container">
+          <section class="list-boxs">
+            <div class="inner-box">
+              <img src="assets/images/logo-devlens.svg" alt="DevLens Logo" />
+              <div>
+                <h3>DevLens</h3>
+                <p>
+                  Quickly inspect page layouts and visualize element boundaries.
+                </p>
+              </div>
+            </div>
+            <div class="controls">
+              <button class="remove">Remove</button>
+              <label class="switch">
+                <input type="checkbox" checked aria-label="Toggle DevLens" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </section>
+        </div>
+
+        <!-- card 2  -->
+        <div class="container">
+          <section class="list-boxs">
+            <div class="inner-box">
+              <img src="assets/images/logo-style-spy.svg" alt="StyleSpy Logo" />
+              <div>
+                <h3>StyleSpy</h3>
+                <p>Instantly analyze and copy CSS from any webpage element.</p>
+              </div>
+            </div>
+            <div class="controls">
+              <button class="remove">Remove</button>
+              <label class="switch">
+                <input type="checkbox" checked aria-label="Toggle StyleSpy" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </section>
+        </div>
+
+        <!-- card 3  -->
+        <div class="container">
+          <section class="list-boxs">
+            <div class="inner-box">
+              <img
+                src="assets/images/logo-speed-boost.svg"
+                alt="SpeedBoost Logo"
+              />
+              <div>
+                <h3>SpeedBoost</h3>
+                <p>
+                  Optimizes browser resource usage to accelerate page loading.
+                </p>
+              </div>
+            </div>
+            <div class="controls">
+              <button class="remove">Remove</button>
+              <label class="switch">
+                <input type="checkbox" aria-label="Toggle SpeedBoost" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </section>
+        </div>
+
+        <!-- card 4  -->
+        <div class="container">
+          <section class="list-boxs">
+            <div class="inner-box">
+              <img
+                src="assets/images/logo-json-wizard.svg"
+                alt="JSONWizard Logo"
+              />
+              <div>
+                <h3>JSONWizard</h3>
+                <p>
+                  Formats, validates, and prettifies JSON responses in-browser.
+                </p>
+              </div>
+            </div>
+            <div class="controls">
+              <button class="remove">Remove</button>
+              <label class="switch">
+                <input type="checkbox" checked aria-label="Toggle JSONWizard" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </section>
+        </div>
+
+        <!-- card 5  -->
+        <div class="container">
+          <section class="list-boxs">
+            <div class="inner-box">
+              <img
+                src="assets/images/logo-tab-master-pro.svg"
+                alt="TabMaster Pro Logo"
+              />
+              <div>
+                <h3>TabMaster Pro</h3>
+                <p>Organizes browser tabs into groups and sessions.</p>
+              </div>
+            </div>
+            <div class="controls">
+              <button class="remove">Remove</button>
+              <label class="switch">
+                <input type="checkbox" aria-label="Toggle TabMaster Pro" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </section>
+        </div>
+
+        <!-- card 6  -->
+        <div class="container">
+          <section class="list-boxs">
+            <div class="inner-box">
+              <img
+                src="assets/images/logo-viewport-buddy.svg"
+                alt="ViewportBuddy Logo"
+              />
+              <div>
+                <h3>ViewportBuddy</h3>
+                <p>
+                  Simulates various screen resolutions directly within the
+                  browser.
+                </p>
+              </div>
+            </div>
+            <div class="controls">
+              <button class="remove">Remove</button>
+              <label class="switch">
+                <input
+                  type="checkbox"
+                  checked
+                  aria-label="Toggle ViewportBuddy"
+                />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </section>
+        </div>
+
+        <!-- card 7  -->
+        <div class="container">
+          <section class="list-boxs">
+            <div class="inner-box">
+              <img
+                src="assets/images/logo-markup-notes.svg"
+                alt="Markup Notes Logo"
+              />
+              <div>
+                <h3>Markup Notes</h3>
+                <p>
+                  Enables annotation and notes directly onto webpages for
+                  debugging.
+                </p>
+              </div>
+            </div>
+            <div class="controls">
+              <button class="remove">Remove</button>
+              <label class="switch">
+                <input type="checkbox" aria-label="Toggle Markup Notes" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </section>
+        </div>
+
+        <!-- card 8  -->
+        <div class="container">
+          <section class="list-boxs">
+            <div class="inner-box">
+              <img
+                src="assets/images/logo-grid-guides.svg"
+                alt="GridGuides Logo"
+              />
+              <div>
+                <h3>GridGuides</h3>
+                <p>
+                  Overlay customizable grids and alignment guides on any
+                  webpage.
+                </p>
+              </div>
+            </div>
+            <div class="controls">
+              <button class="remove">Remove</button>
+              <label class="switch">
+                <input type="checkbox" checked aria-label="Toggle GridGuides" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </section>
+        </div>
+
+        <!-- card 9  -->
+        <div class="container">
+          <section class="list-boxs">
+            <div class="inner-box">
+              <img
+                src="assets/images/logo-palette-picker.svg"
+                alt="Palette Picker Logo"
+              />
+              <div>
+                <h3>Palette Picker</h3>
+                <p>Instantly extracts color palettes from any webpage.</p>
+              </div>
+            </div>
+            <div class="controls">
+              <button class="remove">Remove</button>
+              <label class="switch">
+                <input type="checkbox" aria-label="Toggle Palette Picker" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </section>
+        </div>
+
+        <!-- card 10  -->
+        <div class="container">
+          <section class="list-boxs">
+            <div class="inner-box">
+              <img
+                src="assets/images/logo-link-checker.svg"
+                alt="LinkChecker Logo"
+              />
+              <div>
+                <h3>LinkChecker</h3>
+                <p>Scans and highlights broken links on any page.</p>
+              </div>
+            </div>
+            <div class="controls">
+              <button class="remove">Remove</button>
+              <label class="switch">
+                <input
+                  type="checkbox"
+                  checked
+                  aria-label="Toggle LinkChecker"
+                />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </section>
+        </div>
+
+        <!-- card 11  -->
+        <div class="container">
+          <section class="list-boxs">
+            <div class="inner-box">
+              <img
+                src="assets/images/logo-dom-snapshot.svg"
+                alt="DOM Snapshot Logo"
+              />
+              <div>
+                <h3>DOM Snapshot</h3>
+                <p>Capture and export DOM structures quickly.</p>
+              </div>
+            </div>
+            <div class="controls">
+              <button class="remove">Remove</button>
+              <label class="switch">
+                <input type="checkbox" aria-label="Toggle DOM Snapshot" />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </section>
+        </div>
+
+        <!-- card 12  -->
+        <div class="container">
+          <section class="list-boxs">
+            <div class="inner-box">
+              <img
+                src="assets/images/logo-console-plus.svg"
+                alt="ConsolePlus Logo"
+              />
+              <div>
+                <h3>ConsolePlus</h3>
+                <p>
+                  Enhanced developer console with advanced filtering and
+                  logging.
+                </p>
+              </div>
+            </div>
+            <div class="controls">
+              <button class="remove">Remove</button>
+              <label class="switch">
+                <input
+                  type="checkbox"
+                  checked
+                  aria-label="Toggle ConsolePlus"
+                />
+                <span class="slider round"></span>
+              </label>
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
